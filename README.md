@@ -36,7 +36,12 @@ Finished Schematic
 
 Renders of the PCB and CAD will be added as completed!
 
+## Reflection
+Designing this was an awesome experience and I hope I get to build it!
 
+My biggest learning from this project is that for compact projects like this, I will need to learn to use ICs directly and move away from devboards. Given this, my next dedicated project will definitely be either a custom MC devboard, flight controller, or similar project.
+
+Thanks again to Hack Club and their program, Half-Life, for making this possible!
 
 ## BOM
 |Purchase Status|Part              |Qty|Price (USD)|Total |Link                                                                                                                                                                                                                      |Shipping/Tax|Notes                           |
