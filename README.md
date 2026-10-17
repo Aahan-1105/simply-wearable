@@ -15,6 +15,14 @@ I recently got a G-SHOCK and love it, but miss step counting from my old watch, 
 - 110maH battery with usb-c charging
 - Built for under $30 USD
 
+## Notes
+Having made a keyboard in KiCAD before, I chose to use KiCAD to design the Schematic and PCB for this project. I started off with research on how to accomplish my goals. For step-counting, the GY-BMI160 Module integrates I2C communication with easy power management and an efficient hardware-based pedometer unit. The module will count and store steps up to a certain number, before syncing with the microcontroller to update the information. This approach lets me keep the microcontroller asleep over 90% of the time and results in an incredibly efficient device.
+
+The Nice!Nano microcontroller is based on the nRF52840 and is compact with built-in battery management, while being very efficient. While it is designed for and used in wireless keyboards, I chose to use it for this project due to its capabilities and the fact that I have an extra one at home already. 
+
+The 0.91" oled will be prett simple and connect to the nice!nano over I2C, and will wake from a button press to show step count, battery voltage and some other basic info. it was chosen for easy packaging right above the nice!nano. 
+
+Undeniably the hardest part of this project was the packaging. I wanted to fit all the functionality into the smallest package that wouldn't be noticed on my wrist, and ended up cutting some important functionality to make this happen, such as the haptic system for quiet alerts and extra buttons and battery capacity. Maybe in a future version, I'll have a custom/built-in controller and IC instead of devboards.
 
 ## Photos
 
