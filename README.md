@@ -34,7 +34,13 @@ Finished PCB Excluding Ground Fill
 
 Finished Schematic
 
-Renders of the PCB and CAD will be added as completed!
+<img width="614" height="407" alt="SCR-20261017-nghu" src="https://github.com/user-attachments/assets/a5bea078-19d3-4e24-a6ad-d20398aff1ab" />
+
+Finished PCB Assembly
+
+<img width="758" height="569" alt="SCR-20261018-rork" src="https://github.com/user-attachments/assets/28a91ad0-0ca8-4b34-abb4-69b4a7e85a4d" />
+
+Finished Case Assembly!
 
 ## Reflection
 Designing this was an awesome experience and I hope I get to build it!
